@@ -1,3 +1,58 @@
 body {
-  background-color: aquamarine;
+  background-color: #f7f9fd;
+}
+.logo {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.image{
+  height: 260px !important;
+  border-radius: 20px;
+}
+.about-img {
+  height: 550px;
+  border-radius: 20px;
+}
+a {
+  color: white !important;
+}
+.link:hover {
+  color: aliceblue !important;
+}
+
+/* SECTION  */
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.dot {
+  height: 40px;
+  width: 40px;
+  background-color: #ededed;
+  border-radius: 50%;
+  display: inline-block;
+}
+#direction {
+  gap: 10px;
+}
+
+.title-number {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120px;
+  color: #04A493;
 }
