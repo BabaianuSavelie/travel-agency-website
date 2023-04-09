@@ -1,0 +1,38 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url("https://fonts.googleapis.com/css2? family= Asap:wght@700 & family= Montserrat:wght@400;700 & display=swap");
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
+}
+.navbar{
+    top: 0px;
+}
+aside{
+    width: 20%;
+    height: 100vh;
+    background-color: #efefef;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+}
+
+main{
+    width: 78%;
+}
+
+.bidder{
+   justify-content: space-between;
+  }
+
+
+/* footer */
+.link:hover {
+    color: aliceblue !important;
+}
+.is-metalic{
+    background-color: #2C2C2B;
+
+}
+
+  

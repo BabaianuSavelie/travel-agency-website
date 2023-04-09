@@ -1,23 +1,93 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url("https://fonts.googleapis.com/css2? family= Asap:wght@700 & family= Montserrat:wght@400;700 & display=swap");
+*{
+  box-sizing: border-box;
+}
 body {
-  background-color: #f7f9fd;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
 }
-.logo {
-  justify-content: space-between;
-  flex-wrap: wrap;
+
+.is-transparent {
+  background-color: transparent;
 }
-.image{
+/* navbar */
+.navbar{
+  top: 0px;
+}
+
+/* hero */
+.hero {
+  min-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 30%;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* Partnership */
+
+.hover:hover{
+  fill: #005853;
+}
+
+
+/* Services */
+.wrapper {
+  background-image: url("../assets/img/other/world_map.png");
+  /* background-size: cover; */
+  background-position: center;
+  position: relative;
+  
+}
+.wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #005853; 
+  opacity: 5%;
+  z-index: 2;
+}
+
+.images{
   height: 260px !important;
   border-radius: 20px;
 }
-.about-img {
-  height: 550px;
-  border-radius: 20px;
+
+/* AboutUs */
+.about-img img {
+  height: 315px;
+  width: 248;
+  border-radius: 20px 0;
 }
-a {
-  color: white !important;
-}
-.link:hover {
-  color: aliceblue !important;
+.about-container{
+  column-gap: 100px;
 }
 
 /* SECTION  */
@@ -55,4 +125,47 @@ a {
   font-size: 80px;
   line-height: 120px;
   color: #04A493;
+}
+
+/* Galery */
+.bulma-overlay-mixin {
+  background-color: darkorange;
+  border-radius: 0.25em;
+  color: white;
+  opacity: 0.9;
+  padding: 1em;
+}
+/* footer */
+
+.link:hover {
+  color: aliceblue !important;
+}
+.is-metalic{
+  background-color: #2C2C2B;
+}
+
+
+/* leter */
+.input-control{
+  position: relative; 
+  right: 120px; 
+  top: 5px;
+}
+.input-button{
+  background-color: #293240;
+  color: white;
+  border-radius: 15px;
+}
+.is-color{
+  color: #293240;
+}
+/* Cards */
+.is-rounded{
+  border-radius: 20px;
+}
+
+/* Review section */
+.is-star{
+  height: 18px;
+  width: 18px;
 }

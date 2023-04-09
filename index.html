@@ -5,34 +5,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jelong Tour</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/service-Icon/Logo.svg">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/a9719e28a4.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-white is-flex" href="https://bulma.io">
+                    <img src="/assets/img/service-Icon/Logo.svg" alt="">
+                    <h1>JelongTour</h1>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+
+                <div class="navbar-end">
+                    <a class="navbar-item has-text-white">
+                        Home
+                    </a>
+
+                    <a class="navbar-item has-text-white">
+                        Explore
+                    </a>
+
+                    <a class="navbar-item has-text-white">
+                        About Us
+                    </a>
+
+                    <a class="navbar-item has-text-white">
+                        Booking
+                    </a>
+                    <div class="navbar-item">
+                        <!-- <button class="js-modal-trigger is-primary" data-target="modal-js-example">
+                            <strong>Sign up</strong>
+                        </button> -->
+                        <button class="button is-primary js-modal-trigger" data-target="modal-js-example">
+                            <strong>Sign up</strong>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero">
+        <video autoplay loop muted id="video" class="video">
+            <source src="./assets/hero-background.mp4">
+        </video>
+        <!-- Explore The Most Beatiful Place Around The World -->
+        <div class="centered">
+            <h1 class="title has-text-white is-size-1">Explore The Most Beatiful Place Around The World </h1>
+            <button class="button is-medium is-responsive is-rounded is-primary">
+                See More >
+            </button>
+        </div>
+    </section>
+
+    <!-- About US -->
+    <section class="section mt-5">
+        
+        <div class="container ">
+            <h1 class="title is-1 level-item has-text-centered pt-1	has-text-primary">About US</h1>
+            <div class="is-flex about-container is-justify-content-center	">
+                <div class="" style="width: 382px;">
+                    <h1 class="subtitle"><b>The best travel agency for you</b></h1>
+                    <div >
+                        <p> <span><b>JelongTour</b></span> is travel guidance platform, helps hundreds of thousands of people each month, become <b> better travelers.</b> <br>
+                            <br>
+                            Travelers across the globe use the Amazing Taiwan site to <b>discover</b> where to visit, based on guidance from those who have been there before. <br> <br>
+                            As a travel guidance company, Amazing Taiwan makes planning easy no matter the trip type.
+                        </p>
+                    </div>
+                </div>
+                <div class=" about-img">
+                    <img class="" src="/assets/img/other/relax.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End - About US -->
+
     <!-- Partnership -->
-    <section class="section has-background-white">
+    <section class="section  ">
         <div class="column">
             <div class="container">
-                <h1 class="title is-1 level-item has-text-centered pt-1	">Our Partnership</h1>
+                <h1 class="title is-1 level-item has-text-centered pt-1	has-text-primary">Our Partnership</h1>
                 <h2 class="subtitle level-item has-text-centered pt-2">Some our best partnership travel service worldwide</h2>
             </div>
-            <div class="columns is-vcentered logo is-flex pt-5	">
-                <div class="column">
-                    <img src="/asset/img/partnership/Partner1.svg" srcset="">
+            <div class="columns is-desktop is-mobile is-vcentered  pt-5	">
+                <div class="column is-flex is-justify-content-center">
+                    <img class="hover" src="/assets/img/partnership/topNet.svg" srcset="">
                 </div>
-                <div class="column">
-                    <img src="/asset/img/partnership/Partner2.svg" alt="" srcset="">
+                <div class="column is-flex is-justify-content-center">
+                    <img class="hover" src="/assets/img/partnership/tulup.svg" alt="" srcset="">
                 </div>
-                <div class="column">
-                    <img src="/asset/img/partnership/Partner3.svg" alt="" srcset="">
+                <div class="column is-flex is-justify-content-center">
+                    <img class="hover" src="/assets/img/partnership/regin.svg" alt="" srcset="">
                 </div>
-                <div class="column">
-                    <img src="/asset/img/partnership/Partner4.svg" alt="" srcset="">
+                <div  class="column is-flex is-justify-content-center">
+                    <img class="hover" src="/assets/img/partnership/skyTravel.svg" alt="" srcset="">
                 </div>
+                <div class="column is-flex is-justify-content-center">
+                    <img class="hover" src="/assets/img/partnership/travel.svg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services -->
+    <section class="section wrapper ">
+        <div class="container pt-5 ">
+            <div class="is-flex is-justify-content-center mb-5">
+                <h1 class="title has-text-centered has-text-primary" style="width: 400px;">We always try to give you the best service</h1>            
+            </div>
+            <div class="is-flex is-justify-content-center mb-5">
+                <p class="subtitle has-text-centered" style="width: 590px;">We always try to make our customer Happy. We provide all kind of facilities. Your Satisfaction is our main priority.</p>
+            </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-4-tablet is-3-desktop">
+                        <div class="card" border-radius: 15px;">
+                            <div class="card-header-icon">
+                                <img src="/assets/img/service-Icon/icons_calendar.svg" alt="">
+                            </div>
+                            <div class="card-content has-text-centered">
+                                <p class="title">15+</p>
+                                <p>Years of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="column ">
+                        <div class="card pb-2"  border-radius: 15px;">
+                            <div class="card-header-icon">
+                                <img src="/assets/img/service-Icon/icons_chart-outlined.svg" alt="">
+                            </div>
+                            <div class="card-content has-text-centered ">
+                                <p class="title"><b>15k+</b></p>
+                                <p>Happy Travellers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="column is-4-tablet is-3-desktop">
+                        <div class="card pb-2"  border-radius: 15px;">
+                            <div class="">
+                                <div class="card-header-icon">
+                                    <img src="/assets/img/service-Icon/icons_history.svg">
+                                </div>
+                            </div>
+                            <div class="card-content has-text-centered">
+                                <p class="title"> <b>2k+</b></p>
+                                <p>Travel History</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="column is-4-tablet is-3-desktop" >
+                        <div class="card"  border-radius: 15px;">
+                            <div class="">
+                                <div class="card-header-icon">
+                                    <img src="/assets/img/service-Icon/icons_map.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="card-content has-text-centered ">
+                                <p class="title"> <b>650+ </b></p>
+                                <p>Places Visited</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <!-- Services End-->
+
+    <!-- Galery -->
+    <section class="section">
+        <h1 class="title has-text-centered has-text-primary">Top Destination</h1>            
+        <div class="container">
+            <div class="columns is-2">
                 <div class="column">
-                    <img src="/asset/img/partnership/Partner5.svg" alt="" srcset="">
+                    <img class="image " style="height: 350px; width: 100%;" src="/assets/img/country/united-kingdom.jpg" alt="">
+                </div>
+                <div class="column ">
+                    <img class="image" style="height: 350px; width: 100%;"src="/assets/img/country/turkey.jpg" alt="">
+                </div>
+            </div>
+            <div class="columns is-2">
+                <div class="column ">
+                    <img class="image" style="height: 350px; width: 100%;" src="/assets/img/country/ukraine.jpg" alt="">
+                </div>
+                <div class="column ">
+                    <img class="image" style="height: 350px; width: 100%;" src="/assets/img/country/france.jpg" alt="">
+                </div>
+                <div class="column ">
+                    <img class="image" style="height: 350px; width: 100%;" src="/assets/img/country/united-states.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -41,54 +225,68 @@
     <!-- Cards -->
     <section class="section mt-5 has-background-white">
         <div class="container ">
-            <h3 class="title has-text-centered is-size-4 ">Some our recommended place around the world</h3>
+            <div class="is-flex is-justify-content-center mb-5">
+                <h1 class="title has-text-centered has-text-primary" style="width: 400px;">Some our recommended place around the world</h1>            
+            </div>
             <div class="container">
                 <div class="columns mt-5 is- is-variable">
                     <div class="column is-4-tablet is-3-desktop">
-                        <div class="card">
+                        <div class="card is-rounded">
                             <div class="image has-text-centred p">
-                                <img class="p-3 image" src="/asset/img/locations/Cipru.jpeg" alt="" srcset="">
+                                <img class="p-3 images" src="/assets/img/location/Cipru.jpeg" alt="" srcset="">
                             </div>
-                            <div class="card-content">
+                            <div class="card-content pt-3">
                                 <p class="title .is-size-5 mb-2">Cipru</p>
-                                <p>Underwater Tourism</p>
-                                <p> <span class="has-text-primary">$750</span> / per</p>
+                                <p class="mb-2">Underwater Tourism</p>
+                                <div class="is-flex is-justify-content-space-between">
+                                    <p> <span class="has-text-primary">$750</span> / per</p>
+                                    <a class="has-text-black" href="">Know More ></a>
+                                </div>                    
                             </div>
                         </div>
                     </div>
                     <div class="column is-4-tablet is-3-desktop">
-                        <div class="card">
-                            <div class="has-text-centred p">
-                                <img class="p-3 image" src="/asset/img/locations/Egipt.jpg" alt="" srcset="">
+                        <div class="card is-rounded">
+                            <div class="image has-text-centred p">
+                                <img class="p-3 images" src="/assets/img/location/Egipt.jpg" alt="" srcset="">
                             </div>
-                            <div class="card-content">
+                            <div class="card-content pt-3">
                                 <p class="title .is-size-5 mb-2">Egipt</p>
-                                <p>Underwater Tourism</p>
-                                <p> <span class="has-text-primary">$750</span> / per</p>
+                                <p class="mb-2">Underwater Tourism</p>
+                                <div class="is-flex is-justify-content-space-between">
+                                    <p> <span class="has-text-primary">$750</span> / per</p>
+                                    <a class="has-text-black" href="">Know More ></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="column is-4-tablet is-3-desktop">
-                        <div class="card">
-                            <div class=" has-text-centred p">
-                                <img class="p-3 image" src="/asset/img/locations/Bulgaria.jpg" alt="" srcset="">
+                        <div class="card is-rounded">
+                            <div class="image has-text-centred p">
+                                <img class="p-3 images" src="/assets/img/location/Bulgaria.jpg" alt="" srcset="">
                             </div>
-                            <div class="card-content">
+                            <div class="card-content pt-3">
                                 <p class="title .is-size-5 mb-2">Bulgaria</p>
-                                <p>Underwater Tourism</p>
-                                <p> <span class="has-text-primary">$750</span> / per</p>
+                                <p class="mb-2">Underwater Tourism</p>
+                                <div class="is-flex is-justify-content-space-between">
+                                    <p> <span class="has-text-primary">$750</span> / per</p>
+                                    <a class="has-text-black" href="">Know More ></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="column is-4-tablet is-3-desktop">
-                        <div class="card">
-                            <div class=" has-text-centred p">
-                                <img class="p-3 image" src="/asset/img/locations/Albania.jpg" alt="" srcset="">
+                        <div class="card is-rounded">
+                            <div class="image has-text-centred p">
+                                <img class="p-3 images" src="/assets/img/location/Albania.jpg" alt="" srcset="">
                             </div>
-                            <div class="card-content">
+                            <div class="card-content pt-3">
                                 <p class="title .is-size-5 mb-2">Albania</p>
-                                <p>Underwater Tourism</p>
-                                <p> <span class="has-text-primary">$750</span> / per</p>
+                                <p class="mb-2">Underwater Tourism</p>
+                                <div class="is-flex is-justify-content-space-between ">
+                                    <p> <span class="has-text-primary">$750</span> / per</p>
+                                    <a class="has-text-black" href="">Know More ></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,80 +295,138 @@
         </div>
     </section> 
 
-    <!-- ABOUT US -->
-    <section class="section mt-5 has-background-white">
+    <!-- News-Letter -->
+    
+    <section class="section">
+        <div class="container" style="background-color: #293240; border-radius: 20px;">
+          <div class="is-flex is-justify-content-space-evenly is-flex-wrap-wrap">
+            <div class="is-flex is-flex-direction-column is-justify-content-center ">
+                <h1 class="title has-text-white-ter "><b>Subscribe our newsletter</b></h1>
+                <p class="subtitle has-text-white-ter">Receive latest news, update, and many other things every week.</p>
+                <form action="">
+                    <div class="field is-grouped ">
+                        <p class="control is-expanded">
+                            <input class="input is-medium" type="text" placeholder="Your email here" style="border-radius: 15px;">
+                        </p>
+                        <p class="control input-control">
+                            <a class="button input-button">
+                            Join Now
+                            </a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="">
+                <img class="image" src="/assets/img/other/10966-removebg-preview.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+   <!--Review section-->
+    <section class="section">
+        <div class="is-flex is-justify-content-center mb-5">
+            <h1 class="title has-text-centered has-text-primary" style="width: 400px;">Let's see what other travellers say</h1>            
+        </div>
         <div class="container">
-            <div class="columns mt-5 is- is-variable">
+            <div class="columns">
                 <div class="column">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="" class="about-img"">
+                    <div class="card is-flex">
+                        <div class="card-header-icon">
+                            <figure class="image" style="width: 100px; height: 100px; ">
+                                <img class="is-rounded" src="/assets/img/review/avatar1.jpg">
+                            </figure>
+                        </div>
+                        <div class="card-content pl-1">
+                            <div class="mb-3 mt-3" style="color: #fd9d0b;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="">
+                                <p> <b>"</b> Both relaxing and stimulating, amazing sights, beaches and fantastic hotels. <b>"</b></p>
+                            </div>
+                            <div class="is-flex is-justify-content-space-between mt-3">
+                                <b>- Daniel</b>
+                                <div class="location is-flex">
+                                    <img src="/assets/img/review/ep_location.svg" alt=""> 
+                                    <h1 class="ml-1">Spain</h1>
+                                </div>
+
+                            </div>
+                        </div>  
+                    </div>
                 </div>
-                <div class="column" ">
-                    <p>ABOUT US</p>
-                    <p class="title is-size-2 has-text-weight-bold title-text " style="max-width: 370px; ">The Best And Most trusted service</p>
-                    <p style="max-width: 430px;" >We are the largest holiday service provider in the world with partners and places spread all over the world by prioriti- zing service and customer satisfaction.</p>
-                    <div class="is-flex mt-5">
-                        <div class="column">
-                            <p class="is-size-4 has-text-weight-bold" style="color: #04A493!important;" >270+</p> 
-                            <p>Customer and partners</p>
+                <!-- Card Nr2 -->
+                <div class="column">
+                    <div class="card is-flex">
+                        <div class="card-header-icon">
+                            <figure class="image" style="width: 100px; height: 100px; ">
+                                <img class="is-rounded" src="/assets/img/review/avatar3.jpg">
+                            </figure>
                         </div>
-                        <div class="column">
-                            <p class="is-size-4 has-text-weight-bold" style="color: #04A493!important;" >470+</p> 
-                            <p>Place in the world</p>
+                        <div class="card-content pl-1">
+                            <div class="mb-3 mt-3" style="color: #fd9d0b;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="">
+                                <p> <b>"</b> Both relaxing and stimulating, amazing sights, beaches and fantastic hotels. <b>"</b></p>
+                            </div>
+                            <div class="is-flex is-justify-content-space-between mt-3">
+                                <b>- Mary</b>
+                                <div class="location is-flex">
+                                    <img src="/assets/img/review/ep_location.svg" alt=""> 
+                                    <h1 class="ml-1">Malta</h1>
+                                </div>
+
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <!-- Card Nr3 -->
+                <div class="column">
+                    <div class="card is-flex">
+                        <div class="card-header-icon">
+                            <figure class="image" style="width: 100px; height: 100px; ">
+                                <img class="is-rounded" src="/assets/img/review/avatar2.jpg">
+                            </figure>
                         </div>
+                        <div class="card-content pl-1">
+                            <div class="mb-3 mt-3" style="color: #fd9d0b;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="">
+                                <p> <b>"</b> Both relaxing and stimulating, amazing sights, beaches and fantastic hotels. <b>"</b></p>
+                            </div>
+                            <div class="is-flex is-justify-content-space-between mt-3">
+                                <b>-Michael</b>
+                                <div class="location is-flex">
+                                    <img src="/assets/img/review/ep_location.svg" alt=""> 
+                                    <h1 class="ml-1">Turkey</h1>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ARTICLES -->
-        
-    <section class="section has-background-white mt-5">
-        <div class="container">
-            <div class="columns is-flex is-desktop">
-                <div class="column  is-one-fifth">
-                    <h1 class="title-number is-one-fifth">01</h1>
-                </div>
-                
-                <div class="column is-one-quarter">
-                    <p>Indonesia</p>
-                    <p style="max-width: 530px;">
-                        A country in Southeast Asia that crosses the equator and is between
-                        mainland Asia and Australia, and between the Pacific Ocean and the Indian
-                        Ocean. Indonesia is the largest archipelagic country in the world
-                    </p>
-                </div>
-                <div class="column is-flex is-one-quarter" id="direction">
-                    <p class="dot"></i></p>
-                    <p class="dot"></i></p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="container">
-            <div class="columns grid-xl ">
-                  <div class="column">
-                      <figure class="image card">
-                          <img src="/asset/img/indonesia.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="column">
-                      <figure class="image card">
-                          <img src="/asset/img/indonesia.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="column">
-                      <figure class="image card">
-                          <img src="/asset/img/indonesia.jpg" alt="">
-                      </figure>
-                  </div>
-                  
-            </div>
-      </div>
-    </section>
 
     <!-- footer -->
-    <footer class="footer pb-4 mt-5" style="background-color: #000C17;">
+    <footer class="footer pb-4 mt-5 is-metalic" >
         <div class="container pb-5">
             <div class="columns">
                 <div class="column">
@@ -210,6 +466,62 @@
         <p class="link has-text-white-ter">© All right reseved JelongTour</p>
        </div>
     </footer>
+
+    <div id="modal-js-example" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Sign Up</p>
+              <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+              <div class="container">
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                      <input class="input" type="email" placeholder="Email">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control has-icons-left">
+                      <input class="input" type="tel" placeholder="Phone">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-phone"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control has-icons-left">
+                      <input class="input" type="password" placeholder="Password">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-lock"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="#">terms and conditions</a>
+                      </label>
+                    </div>
+                  </div>
+              </div>
+
+            </section>
+            <footer class="modal-card-foot">
+              
+            </footer>
+        </div>
+
+    </div>
+
     <script type="module" src="./scripts/main.js"></script>
 </body>
 
