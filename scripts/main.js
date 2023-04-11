@@ -57,3 +57,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+const countUp = new CountUp(".title", 0, 15);
