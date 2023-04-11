@@ -57,10 +57,3 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const destination = {
-  name: "Egipt",
-  location: {
-    lat: 45.7787867,
-    long: 36.8989898,
-  },
-};

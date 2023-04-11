@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jelong Tour</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/service-Icon/Logo.svg">
-    <link rel="stylesheet" href="/styles/booking.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <script src="https://kit.fontawesome.com/a9719e28a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,7 +16,7 @@
             <div class="navbar-brand">
                 <a class="navbar-item has-text-white is-flex" href="https://bulma.io">
                     <img src="/assets/img/service-Icon/Logo.svg" alt="">
-                    <h1>JelongTour</h1>
+                    <h1 class="has-text-black">JelongTour</h1>
                 </a>
 
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -30,19 +30,19 @@
             <div id="navbarBasicExample" class="navbar-menu is-active">
 
                 <div class="navbar-end">
-                    <a class="navbar-item has-text-white">
+                    <a href="/index.html" id="navbar-text" class="navbar-item has-text-black">
                         Home
                     </a>
 
-                    <a class="navbar-item has-text-white">
+                    <a class="navbar-item has-text-black"  id="navbar-text">
                         Explore
                     </a>
 
-                    <a class="navbar-item has-text-white">
+                    <a class="navbar-item has-text-black">
                         About Us
                     </a>
 
-                    <a class="navbar-item has-text-white">
+                    <a class="navbar-item has-text-black">
                         Booking
                     </a>
                     <div class="navbar-item">
@@ -59,7 +59,7 @@
     </nav>
 
     <section class="section">
-        <div class="container is-flex bidder mt-5">
+        <div class="container bidder is-flex is-justify-content-space-evenly mt-5">
             <aside class="menu is-hidden-mobile">
                 <ul class="menu-list">
                     <li>
@@ -113,13 +113,57 @@
 
             <main>
                 <div>
-                  <h1></h1>
-                  <hr>
+                    <h1 class="title mb-0">Bidder</h1>
+                    <hr class="m-3">
+                  <div class="card bidder-card is-flex">
+                    <div class=" bidder-card-image ml-2 mt-2">
+                        <img  src="/assets/img/country/turkey.jpg" alt="">
+                    </div>
+                    <div class="card-content bidder-card-content pb-0 ">
+
+                    <div class="is-flex is-justify-content-space-between">
+                        <div class="left">
+                            <h1 id="location title">Location</h1>
+                            <div class="mb-3 mt-2" style="color: #fd9d0b;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h2>Tara</h2>
+                            <div class="flay is-flex">
+                                <div class="departure">
+                                    <img src="/assets/img/bidder_img/result_item_avia_in.svg" alt="">
+                                    <p>28/02/2023</p>
+                                </div>
+                                <div class="arrival ml-2">
+                                    <img src="/assets/img/bidder_img/result_item_avia_out.svg" alt="">
+                                    <p>28/02/2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="board">
+                                <h1>Board</h1>
+                              <p> <b>ALL INCLUSIVE</b></p> 
+                            </div>
+                        </div> 
+                        <div class="price ">
+                            <h1>Price per 2 adult 7 Night</h1>
+                            <h2> <b>1000 $</b></h2>
+                        </div>
+                    </div>
+                    
+                    
+                  </div>
+
                 </div>
             </main>
         </div>
     </section>
 <!-- footer -->
+
     <footer class="footer pb-4 mt-5 is-metalic" >
         <div class="container pb-5">
             <div class="columns">
