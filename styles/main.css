@@ -15,6 +15,9 @@ body {
 .navbar{
   top: 0px;
 }
+.is-white{
+  color: white;
+}
 
 /* hero */
 .hero {
@@ -98,22 +101,6 @@ svg:hover{
   padding: 3px;
 }
 
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-.dot {
-  height: 40px;
-  width: 40px;
-  background-color: #ededed;
-  border-radius: 50%;
-  display: inline-block;
-}
 #direction {
   gap: 10px;
 }
@@ -169,15 +156,37 @@ svg:hover{
   height: 18px;
   width: 18px;
 }
+/* Booking page */
+aside{
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+  height: 100vh;
+  width: 20%;
+}
+main{
+  width: 70%;
+}
+.bidder-card{
+  height: auto;
+}
+.bidder-card-image{
+  width: 20%;
+}
+.bidder-card-content{
+  width: 80%;
+}
 
-@media screen and (max-width: 660px) {
+.bidder-card-image img{
+  height: 160px;
+}
+
+@media screen and (max-width: 1024px) {
   .news-image{
-    display: none;
+    height: 200px;
   }
 }
   
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 768px) {
   .hero{
     min-height:230px
   }
@@ -202,7 +211,23 @@ svg:hover{
     width: 100%;
     border-radius: 0;
   }
-  .news-image{
+  .form{
+    padding-left: 20px;
+  }
+  .input-container{
     display: none;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px){
+  .field{
+    flex-wrap: wrap;
+  }
+  .input-control{
+    position:static;
+    padding-top: 10px;
+  }
+  .input-button{
+    width: 100%;
   }
 }

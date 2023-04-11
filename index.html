@@ -35,16 +35,16 @@
             <div id="navbarBasicExample" class="navbar-menu is-active">
 
                 <div class="navbar-end">
-                    <a class="navbar-item has-text-white">
+                    <a class="navbar-item has-text-white" href="@">
                         Home
                     </a>
 
-                    <a class="navbar-item has-text-white">
-                        Explore
+                    <a class="navbar-item has-text-white" href="#AboutUs">
+                        About Us
                     </a>
 
-                    <a class="navbar-item has-text-white">
-                        About Us
+                    <a class="navbar-item has-text-white" href="#Explore">
+                        Explore
                     </a>
 
                     <a class="navbar-item has-text-white" href="/pages/booking.html">
@@ -72,13 +72,13 @@
         <div class="centered">
             <h1 class="title has-text-white is-size-1 is-adaptible">Explore The Most Beatiful Place Around The World </h1>
             <button class="button is-medium is-responsive is-rounded is-primary">
-                See More >
+               <a class="has-text-white" href="/pages/booking.html"> See More ></a>
             </button>
         </div>
     </section>
 
     <!-- About US -->
-    <section class="section mt-5">
+    <section class="section mt-5" id="AboutUs">
         
         <div class="container ">
             <h1 class="title is-1 level-item has-text-centered pt-1	has-text-primary">About US</h1>
@@ -225,7 +225,7 @@
     </section>
 
     <!-- Cards -->
-    <section class="section mt-5 has-background-white">
+    <section class="section mt-5 has-background-white" id="Explore">
         <div class="container ">
             <div class="is-flex is-justify-content-center mb-5">
                 <h1 class="title has-text-centered has-text-primary" style="width: 400px;">Some our recommended place around the world</h1>            
@@ -302,11 +302,11 @@
     <section class="section">
         <div class="container" style="background-color: #293240; border-radius: 20px;">
           <div class="is-flex is-justify-content-space-evenly ">
-            <div class="is-flex is-flex-direction-column is-justify-content-center ">
-                <h1 class="title has-text-white-ter "><b>Subscribe our newsletter</b></h1>
-                <p class="subtitle has-text-white-ter">Receive latest news, update, and many other things every week.</p>
-                <form action="">
-                    <div class="field is-grouped ">
+            <div class="is-flex is-flex-direction-column is-justify-content-center pt-3 pb-3">
+                <form action="" class="form">
+                    <h1 class="title has-text-white-ter "><b>Subscribe our newsletter</b></h1>
+                    <p class="subtitle has-text-white-ter">Receive latest news, update, and many other things every week.</p>
+                    <div class="field is-grouped">
                         <p class="control is-expanded">
                             <input class="input is-medium" type="text" placeholder="Your email here" style="border-radius: 15px;">
                         </p>
@@ -318,7 +318,7 @@
                     </div>
                 </form>
             </div>
-            <div class="" style="width: 500px;">
+            <div class="input-container">
                 <img class="image news-image" src="/assets/img/other/10966-removebg-preview.png" alt="">
             </div>
           </div>
