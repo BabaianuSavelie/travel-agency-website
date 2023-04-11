@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="/styles/main.css">
     <script src="https://kit.fontawesome.com/a9719e28a4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav class="navbar is-fixed-top " role="navigation" aria-label="main navigation">
         <div class="container">
@@ -27,14 +29,18 @@
                 </a>
             </div>
 
-            <div id="navbarBasicExample" class="navbar-menu is-active">
+            <div id="navbarBasicExample" class="navbar-menu">
 
                 <div class="navbar-end" >
                     <a href="/index.html"  id="navbar-text" class="navbar-item has-text-black">
                         Home
                     </a>
 
-                    <a href="/index.html" class="navbar-item has-text-black">
+                    <a class="navbar-item has-text-black" id="navbar-text">
+                        Explore
+                    </a>
+
+                    <a class="navbar-item has-text-black">
                         About Us
                     </a>
 
@@ -67,109 +73,66 @@
                         <ul>
                             <div class="control has-icons-left">
                                 <div class="select">
-                                  <select>
-                                    <option selected>Country</option>
-                                    <option>Select dropdown</option>
-                                    <option>With options</option>
-                                  </select>
+                                    <select>
+                                        <option selected>Country</option>
+                                        <option>Select dropdown</option>
+                                        <option>With options</option>
+                                    </select>
                                 </div>
                                 <span class="icon is-left">
-                                  <i class="fas fa-globe"></i>
+                                    <i class="fas fa-globe"></i>
                                 </span>
-                              </div>
-                        </ul>              
+                            </div>
+                        </ul>
                     </li>
-                  
-                  <li>
-                    <a class="">Stars</a>
-                    <ul>
-                        <li>
-                            <label class="checkbox">
-                                <input type="checkbox">
-                                  Select all
-                            </label>
-                        </li>
-                        <li>
-                            <label class="checkbox">
-                                <input type="checkbox">
-                                 1 Star
-                            </label>
-                        </li>
-                        <li>
-                            <label class="checkbox">
-                                <input type="checkbox">
-                                  3 Stars
-                            </label>
-                        </li>
-                        <li>
-                            <label class="checkbox">
-                                <input type="checkbox">
-                                  5 Stars
-                            </label>
-                        </li>
-                    </ul>   
+
+                    <li>
+                        <a class="">Stars</a>
+                        <ul>
+                            <li>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Select all
+                                </label>
+                            </li>
+                            <li>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    1 Star
+                                </label>
+                            </li>
+                            <li>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    3 Stars
+                                </label>
+                            </li>
+                            <li>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    5 Stars
+                                </label>
+                            </li>
+                        </ul>
                 </ul>
             </aside>
 
             <main>
-                <div>
+                <div class="excursions">
                     <h1 class="title mb-0">Bidder</h1>
                     <hr class="m-3">
-                  <div class="card bidder-card is-flex">
-                    <div class=" bidder-card-image ml-2 mt-2">
-                        <img  src="/assets/img/country/turkey.jpg" alt="">
-                    </div>
-                    <div class="card-content bidder-card-content pb-0 ">
-
-                    <div class="is-flex is-justify-content-space-between">
-                        <div class="left">
-                            <h1 id="location title">Location</h1>
-                            <div class="mb-3 mt-2" style="color: #fd9d0b;">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <h2>Tara</h2>
-                            <div class="flay is-flex">
-                                <div class="departure">
-                                    <img src="/assets/img/bidder_img/result_item_avia_in.svg" alt="">
-                                    <p>28/02/2023</p>
-                                </div>
-                                <div class="arrival ml-2">
-                                    <img src="/assets/img/bidder_img/result_item_avia_out.svg" alt="">
-                                    <p>28/02/2023</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right">
-                            <div class="board">
-                                <h1>Board</h1>
-                              <p> <b>ALL INCLUSIVE</b></p> 
-                            </div>
-                        </div> 
-                        <div class="price ">
-                            <h1>Price per 2 adult 7 Night</h1>
-                            <h2> <b>1000 $</b></h2>
-                        </div>
-                    </div>
-                    
-                    
-                  </div>
-
                 </div>
             </main>
         </div>
     </section>
-<!-- footer -->
+    <!-- footer -->
 
-    <footer class="footer pb-4 mt-5 is-metalic" >
+    <footer class="footer pb-4 mt-5 is-metalic">
         <div class="container pb-5">
             <div class="columns">
                 <div class="column">
                     <p class="title link has-text-white-ter">JelongTour</p>
-                    
+
                 </div>
                 <div class="column">
                     <p class="title link has-text-white-ter">Information</p>
@@ -200,9 +163,9 @@
             </div>
         </div>
         <hr style="background-color: #cccccc!important;">
-       <div class="content has-text-centered">
-        <p class="link has-text-white-ter">© All right reseved JelongTour</p>
-       </div>
+        <div class="content has-text-centered">
+            <p class="link has-text-white-ter">© All right reseved JelongTour</p>
+        </div>
     </footer>
 
     <div id="modal-js-example" class="modal">
@@ -210,25 +173,26 @@
 
         <div class="modal-card">
             <header class="modal-card-head">
-              <p class="modal-card-title">Modal title</p>
-              <button class="delete" aria-label="close"></button>
+                <p class="modal-card-title">Modal title</p>
+                <button class="delete" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
-              <div class="container">
-                <form action="">
-                    <div class="container">
-                        <input class="input is-primary" type="text" placeholder="Primary input">
-                    </div>
-                </form>
-              </div>
+                <div class="container">
+                    <form action="">
+                        <div class="container">
+                            <input class="input is-primary" type="text" placeholder="Primary input">
+                        </div>
+                    </form>
+                </div>
             </section>
             <footer class="modal-card-foot">
-              
+
             </footer>
         </div>
 
     </div>
 
-    <script src="/scripts/main.js"></script>
+    <script type="module" src="../scripts/booking.js"></script>
 </body>
+
 </html>
