@@ -8,9 +8,9 @@ const Card = ({
   city,
   image_url,
 }) => {
-  const formatter = new Intl.NumberFormat({
+  const formatter = new Intl.NumberFormat(undefined, {
     style: "currency",
-    currency: "mdl",
+    currency: "EUR",
   });
 
   return `
