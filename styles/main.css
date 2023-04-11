@@ -50,8 +50,8 @@ body {
 }
 /* Partnership */
 
-.hover:hover{
-  fill: #005853;
+svg:hover{
+  fill: red;
 }
 
 
@@ -171,6 +171,13 @@ body {
 }
 
 @media screen and (max-width: 660px) {
+  .news-image{
+    display: none;
+  }
+}
+  
+
+@media screen and (max-width: 660px) {
   .hero{
     min-height:230px
   }
@@ -195,7 +202,7 @@ body {
     width: 100%;
     border-radius: 0;
   }
-  .image{
+  .news-image{
     display: none;
   }
 }
